@@ -1,0 +1,51 @@
+.cardDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    min-height: 82vh;
+   margin-top: 20px;
+   margin-bottom: 20px;
+ 
+}
+.CardDetailsItem{
+    display: flex;
+   gap: 20px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.BookName{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.CardDesc{
+    font-weight: 300;
+}
+.cardAuthor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Cardauthor{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.CardPrice{
+    font-weight: 700;
+    color: green;
+    font-size: 1.1rem;
+}
+.CardButton{
+    display: flex;
+    align-items: center;
+   gap: 40px;
+}
+.cardImage{
+    filter: drop-shadow(2px 4px 10px #000000);
+}
+@media screen and (max-width: 995px) {
+  .cardDetails{
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,50 @@
+.img img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    filter: drop-shadow(2px 4px 20px #000000);
+}
+
+.home{
+    height: 85vh;
+ 
+}
+.headingHome{
+    font-size: 1.2rem;
+}
+.paraHome{
+  font-size: 1rem;
+  width: 90%;
+}
+.btnHome {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+   color: white;
+    background-color: green;
+    padding: 10px 30px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+}
+
+@media screen and (max-width: 990px) {
+    .img img{
+    width: 350px;
+    height: 350px;
+    }
+    
+   }
+@media screen and (max-width: 770px) {
+   .img img{
+    display: none;
+   }
+   .home{
+    text-align: center;
+   }
+  }
+  @media screen and (max-width: 450px) {
+  .paraHome{
+    font-size: 0.9rem;
+  }
+   }

@@ -1,0 +1,55 @@
+.bookcard{
+    width: 210px;
+    height: 310px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid green;
+    cursor: pointer;
+}
+.bookcard img{
+    width: 120px;
+    height: 150px;
+}
+.cardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.cardbtn button{
+    padding: 5px 20px;
+    outline: none;
+    background-color: green;
+    color: white;
+    border: none;
+    width: 100%;
+}
+.cardbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bookname{
+    font-weight: 600;
+   
+}
+.author{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+.price{
+    color: green;
+    font-weight: 700;
+}
+.authorname{
+    font-weight: 300;
+    
+}
+

@@ -1,0 +1,10 @@
+.book{
+    min-height: 85vh;
+  margin-top: 20px;
+    width: 100vw;
+}
+.book p{
+    color: green;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
