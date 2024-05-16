@@ -7,7 +7,7 @@ import './Books.css'
   const [Data, setData] = useState("")
   useEffect(()=>{
     const fetch = async ()=>{
-      await axios.get("http://localhost:3000/api/v1/getBook").then((res)=>setData(res.data.books))
+      await axios.get("https://bookstore-backend-ochre-beta.vercel.app/api/v1/getBook").then((res)=>setData(res.data.books))
     }
     fetch();
   })

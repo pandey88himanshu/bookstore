@@ -16,7 +16,7 @@ const AddBooks = () => {
   }
   const submit = async (e)=>{
 e.preventDefault()
-{Data.bookname && Data.description && Data.author && Data.image && Data.price ? await axios.post("http://localhost:3000/api/v1/add",Data).then((res)=>toast.success(res.data.message)) : toast.error("Fill all details") }
+{Data.bookname && Data.description && Data.author && Data.image && Data.price ? await axios.post("https://bookstore-backend-ochre-beta.vercel.app/api/v1/add",Data).then((res)=>toast.success(res.data.message)) : toast.error("Fill all details") }
 
 setData({
   bookname: "",

@@ -16,7 +16,7 @@ const UpdateBook = () => {
         const id = item._id
     e.preventDefault()
     console.log(Data)
-    {Data.bookname || Data.description || Data.author || Data.image || Data.price ? axios.put(`http://localhost:3000/api/v1/updateBook/${id}`,Data).then((res)=>toast.success(res.data.message)) : toast.error("Fill any one detail") }
+    {Data.bookname || Data.description || Data.author || Data.image || Data.price ? axios.put(`https://bookstore-backend-ochre-beta.vercel.app/api/v1/updateBook/${id}`,Data).then((res)=>toast.success(res.data.message)) : toast.error("Fill any one detail") }
     //  axios.put(`http://localhost:3000/api/v1/updateBook/${id}`,Data).then((res)=>toast.success(res.data.message))
 
     setData({
